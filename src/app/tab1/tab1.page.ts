@@ -10,12 +10,6 @@ export class Tab1Page {
 
   constructor(public afAuth: AngularFireAuth) {}
   
-  // Method to sign out
-  signOut(){
-    this.afAuth.auth.signOut().then(() => {
-      // reload page
-      location.reload();
-    })
-  }
+  
 
 }

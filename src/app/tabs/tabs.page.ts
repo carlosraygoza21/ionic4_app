@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AngularFireAuth } from '@angular/fire/auth';
 
 @Component({
   selector: 'app-tabs',
@@ -7,6 +8,15 @@ import { Component } from '@angular/core';
 })
 export class TabsPage {
 
-  constructor() {}
+  constructor(public afAuth: AngularFireAuth) {}
 
+  // Method to sign out
+  signOut() {
+    this.afAuth.auth.signOut(); 
+    // .then(() => {
+      // reload page
+      // location.reload();
+      // this.push(TabsPage);
+    // })
+  }
 }
