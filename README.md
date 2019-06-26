@@ -21,7 +21,7 @@ Follow the instructions in [FirebaseUI Documentation](https://firebaseopensource
 
 
 
-## Screenshots
+## How to
 
 ### **SIGN UP**  
 The next screenshots show step by step how the process to register is. 
