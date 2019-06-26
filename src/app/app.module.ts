@@ -23,14 +23,14 @@ const firebaseUiAuthConfig: firebaseui.auth.Config = {
   signInFlow: 'popup',
   signInOptions: [
     {
-      requireDisplayName: false,
+      requireDisplayName: true,
       provider: firebase.auth.EmailAuthProvider.PROVIDER_ID
     },
   ],
   // Edit here to send to new page for Terms and Privacy
   tosUrl: '<your-tos-link>',
   privacyPolicyUrl: '<your-privacyPolicyUrl-link>',
-  credentialHelper: firebaseui.auth.CredentialHelper.ACCOUNT_CHOOSER_COM
+  credentialHelper: firebaseui.auth.CredentialHelper.NONE
 };
 
 @NgModule({
