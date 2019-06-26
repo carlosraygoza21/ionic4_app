@@ -3,6 +3,7 @@ MyTalent is a basic app developed in IONIC 4 to let users do the next:
 - [x] Sign up 
 - [x] Log in  
 - [x] Check some pre-stablished feed.
+- [x] Sign out
 
 Made with <3 by Carlos Raygoza for [Talent Network](https://talent-network.org). 
 
@@ -37,6 +38,12 @@ If an e-mail is already in the database, the process is going to ask only for th
 When the user is logged-in, the tabs for *FEED* and *SIGN OUT* are going to appear. In this case, if *FEED* is pressed, the next screen is going to show (GIF alert). 
 
 ![feed](https://user-images.githubusercontent.com/42517898/60151089-11763880-97a1-11e9-9ac3-beadda9289aa.gif)
+
+### **SIGN OUT**  
+When you are already logged-in and press the *sign out* button, you are going to be signed out and redirected to the home page. 
+
+<img width="296" alt="signout" src="https://user-images.githubusercontent.com/42517898/60151426-551d7200-97a2-11e9-9233-df90dba5138e.png">
+
 
 ## Comments
 Any comments, doubts, complaints, do not hesitate to communicate with me.   
